@@ -18,6 +18,9 @@
         .ad {
             width: 250px;
             height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
         .ad-container {
@@ -28,6 +31,9 @@
             overflow: hidden;
             position: relative;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
         .ad-content {
@@ -63,6 +69,8 @@
             font-weight: bold;
             border-radius: 5px;
             transition: background-color 0.3s ease;
+            align-self: center; /* Center the button horizontally */
+            margin-bottom: 20px; /* Add space from the bottom */
         }
 
         .cta-button:hover {
@@ -81,8 +89,9 @@
                 <!-- Replace the URL with Quicken Loans's actual logo image -->
                 <img src="https://www.quickenloans.com/cdn/QuickenLoans.com/logo-quickenloans.svg" alt="Quicken Loans Logo">
             </div>
+            <div>
                 <h1>Refinance with Quicken Loans!</h1>
-                <p>Lower your monthly bill, get your home refinanced today!.</p>
+                <p>Lower your monthly bill, and refinanc your home etoday!.</p>
                 <a href="sms:/2068397765/&body=Hey Quicken Loans! I'm interested in talking to you about refinancing the loan on my home!" class="cta-button" target="_blank">Text Us Now!</a>
             </div>
         </div>
