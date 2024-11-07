@@ -31,7 +31,7 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            align-items: center;
+            align-items: flex-start; /* Align items to the left */
             gap: -5px; /* Space between the embedded content and ad */
         }
         .ad-container {
@@ -45,10 +45,10 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            align-items: center;
+            align-items: flex-start; /* Align content to the left */
         }
         .ad-content {
-            text-align: center;
+            text-align: left; /* Align text left */
             padding: 10px;
             width: 100%;
         }
@@ -56,7 +56,7 @@
             max-width: 100%;
             height: auto;
             display: block;
-            margin: 0 auto;
+            margin: 0; /* Remove center alignment */
         }
         h1 {
             color: #003087;
