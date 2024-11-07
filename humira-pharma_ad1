@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humira</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica', sans-serif; /* Use Humira's preferred font if available */
+            background-color: #f5f5f5; /* Match loanDepot's background color */
+        }
+
+        .ad {
+            width: 300px; /* Adjusted width for better spacing */
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center; /* Center horizontally */
+        }
+
+        .ad-container {
+            width: 300px;
+            height: 250px;
+            background-color: #fff; /* Match Humira's content background color */
+            border: 1px solid #ddd;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center; /* Center horizontally */
+        }
+
+        .ad-content {
+            text-align: center;
+            padding: 10px;
+            width: 100%; /* Added width for better spacing */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #333; /* Match loanDepot's heading color */
+            font-size: 18px;
+            margin: 0;
+            font-weight: bold; /* Make the title bold */
+            text-align: left; /* Align with the logo */
+            width: 100%; /* Ensure it takes full width */
+            padding-left: 20px; /* Add padding for spacing */
+        }
+
+        p {
+            color: #666; /* Match Humira's paragraph text color */
+            font-size: 14px;
+            margin: 10px 0;
+            text-align: left; /* Align with the logo */
+            width: 100%; /* Ensure it takes full width */
+            padding-left: 20px; /* Add padding for spacing */
+            margin-bottom: 20px; /* Add larger space */
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px; /* Adjusted padding to match ad content */
+            background-color: #00a86b; /* Match https://www.humira.com's call-to-action button color */
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            align-self: center; /* Center the button horizontally */
+            margin-bottom: 40px; /* Add space from the bottom */
+        }
+
+        .cta-button:hover {
+            background-color: #00784d; /* Darker shade on hover */
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section class="ad">
+        <div id="predict_qeht3u"></div>
+        <div class="ad-container">
+            <div class="ad-content">
+                <!-- Replace the URL with Humira's actual logo image -->
+                <img src="https://images.squarespace-cdn.com/content/v1/65c3bc3c5f3c855311eba919/1707437392308-P0OE9YVCM8J9HPDPP5Z0/Humira-logo-2.jpg?format=2500w"alt="Humira">
+            </div>
+            <div>
+                <h1>Remission is possible</h1>
+                <p>Injection intended to reduce symptoms of ulcerative colitis.</p>
+                <a href=https://www.humira.com/class="cta-button" target="_blank">Learn More!</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://content.predictinteractive.com/embeds/placement.js?z=qeht3u&div_id=predict_qeht3u"></script>
+    </section>
+
+</body>
+
+</html>
